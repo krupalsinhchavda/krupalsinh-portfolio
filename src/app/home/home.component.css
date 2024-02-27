@@ -1,0 +1,30 @@
+.off-width {
+    width: 250px !important;
+}
+
+.icon-color {
+    color: #CA82F8;
+}
+.scrollToTop {
+    background-color: #CA82F8;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    inset-inline-end: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    display: none;
+    z-index: 10000;
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: background-color .1s linear;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 24px 0 rgba(0, 0, 0, 0.305);
+  }
+@media (max-width: 767px) {
+    .phone {
+        margin-right: 30px;
+    }
+}

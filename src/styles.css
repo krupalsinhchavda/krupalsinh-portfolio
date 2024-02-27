@@ -532,7 +532,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 
 .about-desc .desc {
-    padding-left: 6em;
+    padding-left: 3em;
     position: relative;
 }
 
@@ -584,9 +584,14 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
         font-size: 60px;
     }
 }
-
+@media screen and (min-width: 769px) and (max-width: 998px) {
+    .bold {
+        font-size: 180px;
+    }
+}
 .intro-heading {
     margin-bottom: 3em;
+    z-index: 999;
 }
 
 .intro-heading h2 {

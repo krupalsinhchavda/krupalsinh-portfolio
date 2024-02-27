@@ -25,13 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "assets/css/bootstrap.css",
-              "assets/css/animate.css",
-              "assets/css/icomoon.css",
-              "assets/css/owl.carousel.min.css",
-              "assets/css/owl.theme.default.min.css",
-              "assets/css/magnific-popup.css"
+              "src/styles.css"
             ],
             "scripts": [
               

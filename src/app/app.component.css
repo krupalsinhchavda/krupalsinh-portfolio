@@ -1,0 +1,13 @@
+.off-width {
+    width: 250px !important;
+}
+
+.icon-color {
+    color: #CA82F8;
+}
+
+@media (max-width: 767px) {
+    .phone {
+        margin-right: 30px;
+    }
+}
